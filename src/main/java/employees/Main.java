@@ -25,9 +25,13 @@ public class Main {
                 Rubble, Betty, 4/4/1915, CEO, {avgStockPrice=300}  
                 """;
 
-        String regex = "(?<lastName>\\w+),\\s*(?<firstName>\\w+),\\s*(?<dob>\\d{1,2}/\\d{1,2}/\\d{4}), \\s*(?<role>\\w+)\\n";
-        Pattern pat = Pattern.compile(regex);
+        String peopleRegex = "(?<lastName>\\w+),\\s*(?<firstName>\\w+),\\s*(?<dob>\\d{1,2}/\\d{1,2}/\\d{4}), \\s*(?<role>\\w+)\\n";
+        Pattern pat = Pattern.compile(peopleRegex);
         Matcher mat = pat.matcher(people);
+
+
+        String progRegex = "\\w+=(?<locpd>\\w),\\w+=(?<yoe>\\w),\\w+=(?<iq>\\w)";
+        Pattern coderPat = Pattern.compile(progRegex);
 
         int totalSalaries = 0;
 
