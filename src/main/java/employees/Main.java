@@ -32,6 +32,7 @@ public class Main {
 
         String progRegex = "\\w+=(?<locpd>\\w),\\w+=(?<yoe>\\w),\\w+=(?<iq>\\w)";
         Pattern coderPat = Pattern.compile(progRegex);
+        matcher coderMat
 
         int totalSalaries = 0;
 
