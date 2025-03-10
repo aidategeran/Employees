@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void comain(String[] args) {
         String people = """
                 Flinstone, Fred, 1/1/1900, Programmer, {locpd=2000, yoe=10, iq=140}
                 Flinstone, Fred, 1/1/1900, Programmer, {locpd=1300, yoe=14, iq=100}
@@ -22,7 +22,19 @@ public class Main {
                 Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=5}
                 Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=6}
                 Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
+                
                 Rubble, Betty, 4/4/1915, CEO, {avgStockPrice=300}  
+                
+                
+                
+                
+                
+                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
+                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
+                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
+                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
+                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
+               \
                 """;
 
         String peopleRegex = "(?<lastName>\\w+),\\s*(?<firstName>\\w+),\\s*(?<dob>\\d{1,2}/\\d{1,2}/\\d{4}), \\s*(?<role>\\w+)\\n";
@@ -55,6 +67,10 @@ public class Main {
 
         }
         NumberFormat currencyInstance = NumberFormat.getCurrencyInstance();
+
+
+
+
 
         System.out.printf("The total payout should be %s%n ", currencyInstance.format(totalSalaries));
 
