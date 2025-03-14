@@ -36,63 +36,10 @@ public class Main {
                 Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
                 Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
                 Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-                Flinstone, Wilma, 3/3/1910, Analyst, {projectCount=9}
-               \
+               
+       
+               
+                
                 """;
 
         String peopleRegex = "(?<lastName>\\w+),\\s*(?<firstName>\\w+),\\s*(?<dob>\\d{1,2}/\\d{1,2}/\\d{4}), \\s*(?<role>\\w+)\\n";
