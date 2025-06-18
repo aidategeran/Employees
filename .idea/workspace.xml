@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4520c621-13e0-40cf-8870-ea0fa9f3dc7f" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employees/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +34,10 @@
     &quot;accountId&quot;: &quot;f6f8b770-1758-480d-8126-bf3fb8d0ac83&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -102,7 +105,10 @@
       <workItem from="1741150182626" duration="13869000" />
       <workItem from="1742612961801" duration="1760000" />
       <workItem from="1749155113062" duration="11887000" />
-      <workItem from="1749782817956" duration="3107000" />
+      <workItem from="1749782817956" duration="4336000" />
+      <workItem from="1750107991044" duration="157000" />
+      <workItem from="1750109506745" duration="13000" />
+      <workItem from="1750110567689" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -288,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749870108892</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="commit">
+      <option name="closed" value="true" />
+      <created>1749957821575</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1749957821575</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
